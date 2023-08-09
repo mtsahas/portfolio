@@ -1,0 +1,53 @@
+.navigation {
+    height: 60px;
+    width: 100%;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0.5rem 0rem;
+    background-color: 	#93C572;
+    color: black;
+    box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+  }
+  .brand-name {
+    text-decoration: none;
+    color: black;
+    /* font-size: 1.3rem; */
+    font-size: 3rem;
+    margin-left: 1rem;
+  }
+  .brand-name:visited { 
+    text-decoration: none; 
+    color: black; 
+   }
+  .navigation-menu {
+    margin-left: auto;
+  }
+  .navigation-menu ul {
+    display: flex;
+    padding: 0;
+  }
+  .navigation-menu li {
+    /* // removes default disc bullet for li tags and applies margin to left & right side */
+    list-style-type: none;
+    font-size:1.4rem;
+    margin: 0 1rem;
+  }
+  .navigation-menu li:hover {
+    font-weight: 1000;
+  }
+  .navigation-menu li:active {
+    font-weight: 1000;
+  }
+  .navigation-menu li a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+  }
+  a:visited { 
+    text-decoration: none; 
+    color: black; 
+   }
+
+
