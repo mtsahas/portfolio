@@ -26,7 +26,7 @@ return (
 
 
   <div class="float-container">
-      <div class ="float-child"><img src="../headshot.JPG" alt="headshot"/></div>
+      <div class ="float-child"><img src={require("../assets/images/headshot.JPG")} alt="headshot"/></div>
       <div class="float-child"> 
         <p>Hi! My name is Mary Tsahas. I am a senior at Princeton University studying computer science. I am interested in software development and security research. Learn more about my work experience and projects.</p>
         <a href="https://www.linkedin.com/in/mary-tsahas-341053202/" target>
