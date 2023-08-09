@@ -7,9 +7,9 @@ return (
     <><h1> projects </h1>
     <body>
     <div class="grid">
-        <div class="box box--1"><button><a href="https://princeton-imuseum.onrender.com/login" target="_blank">
+        <div class="box box--1"><a href="https://princeton-imuseum.onrender.com/login" target="_blank">
             <img class = "proj_ss" src={require("../assets/images/imuseum.png")}></img>
-            </a></button>
+            </a>
         </div>
         <div class="box box--2" ><b>Princeton iMuseum.</b> Princeton iMuseum is an interactive way to experience Princeton's art museum collections. The art museum is closed for construction 
         and will be until 2026. This website makes use of the art museum's extensive and accurate API to display art pieces and important information. Users can browse through the art pieces,
