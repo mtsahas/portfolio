@@ -1,31 +1,27 @@
-h1{
-    margin-bottom: 0px;
-}
 div.resume{
-    padding: 30px;
-    padding-top: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 div.category{
-    font-size: xx-large;
+    font-size: x-large;
     font-weight: 700;
-    color: bisque;
     padding-top: 6px;
     padding-bottom: 6px;
 }
 div.title{
-    font-size: x-large;
+    font-size:large;
     font-weight: 600;
     padding-left: 3%;
     padding-top: 15px;
 }
 div.description{
-    font-size: large;
+    /* font-size: large; */
     font-weight: 500;
     padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 6%;
 }
 .date{
-    font-size: large;
     font-weight: 500;
     padding-left: 1%;
 }

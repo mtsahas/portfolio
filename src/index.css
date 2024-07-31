@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 html{
   font-size: 100.5%;
   margin: auto;
@@ -5,14 +10,9 @@ html{
 }
 
 body {
-  margin: 0;
-  /* font-family: 300 14px/3 'Helvetica Neue', 'sans-serif'; */
-  font-family: 'Times New Roman', Times, serif;
-  color: white;
-  background: #022c43;
+  font-family:sans-serif;
+  background-color: rgb(163, 201, 235);
   overflow: scroll;
   display: block;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 

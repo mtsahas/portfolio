@@ -1,5 +1,4 @@
 .grid {
-	/* background-color: #eee; */
 	width: 1000px;
 	margin: 15px auto;
 	margin-left:50px;
@@ -7,10 +6,6 @@
 	grid-template-rows: 250px 250px 250px;
 	grid-template-columns: 430px 900px;
 	
-	/* //grid-row-gap: 30px;
-	//grid-column-gap: 30px; */
-   
-	/* grid-gap: 30px; */
     grid-row-gap: 5x;
     
 }
@@ -29,8 +24,13 @@
 }
 .box {
 	padding: 20px;
-	font-size: 20px;
-	/* font-family: sans-serif; */
+	font-size: 110%;
     overflow: hidden;
     
+}
+a:hover{
+	img{
+		border-color: plum;
+	}
+	
 }

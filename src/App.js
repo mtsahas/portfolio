@@ -1,20 +1,11 @@
-// import './App.scss';
-import {Routes, Route, HashRouter} from 'react-router-dom';
-// import Layout from './components/Layout'
+import {Routes, Route} from 'react-router-dom';
 import Navbar from "./components/Navbar";
-import About from "./components/About";
 import Home from "./components/Home";
 import Resume from "./components/Resume";
 import Projects from "./components/Projects";
-import "./styles.css";
 
 function App() {
   return (
-    // <>
-    // <Routes>
-    //   <Route path="/" element={<Layout />}/>
-    // </Routes>
-    // </>
       <div>
         <Navbar />
         <Routes>
